@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+/* line 5, ../sass/main.sass */
+body, body * {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../sass/main.sass */
+h1 {
+  font-size: 40px;
+}
+
+/* line 12, ../sass/main.sass */
+a {
+  text-decoration: none;
+  color: black;
+}
+/* line 15, ../sass/main.sass */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 19, ../sass/main.sass */
+body * {
+  overflow: hidden;
+  font-family: Duru Sans;
+}
+/* line 22, ../sass/main.sass */
+body > * {
+  width: 960px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* line 27, ../sass/main.sass */
+header {
+  text-align: center;
+  padding: 40px 0px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #4f4d7a;
+}
+
+/* line 34, ../sass/main.sass */
+section img {
+  width: 100%;
+}
+/* line 36, ../sass/main.sass */
+section article, section ul {
+  margin: 20px 0px;
+}
+/* line 38, ../sass/main.sass */
+section ul {
+  float: left;
+  width: 33.33333%;
+}
+
+/* line 42, ../sass/main.sass */
+footer {
+  border-top: 3px solid #4f4d7a;
+  padding: 40px 0px;
+}
+
+@media all and (max-width: 500px) {
+  /* line 49, ../sass/main.sass */
+  body > * {
+    width: auto;
+  }
+
+  /* line 52, ../sass/main.sass */
+  section {
+    padding: 0px 20px;
+  }
+  /* line 54, ../sass/main.sass */
+  section ul {
+    float: none;
+  }
+}
